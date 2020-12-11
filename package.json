@@ -1,0 +1,27 @@
+{
+  "name": "@probot/example-azure-function",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probot & Azure Functions example",
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "node test.js"
+  },
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "ISC",
+  "repository": "https://github.com/probot/example-azure-function",
+  "dependencies": {
+    "probot": "^11.0.0"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.2",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.2",
+    "uvu": "^0.5.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
