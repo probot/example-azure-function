@@ -1,4 +1,4 @@
-# 🚧 Work in progress, see [#1](https://github.com/probot/example-google-cloud-function/pull/1)
+# 🚧 Work in progress, see [#1](https://github.com/probot/example-azure-function/pull/1)
 
 # Probot & Azure Functions example
 
