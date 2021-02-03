@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": "https://github.com/probot/example-azure-function",
   "dependencies": {
-    "probot": "^11.0.0"
+    "probot": "^11.0.5"
   },
   "devDependencies": {
     "@azure/functions": "^1.2.3",
