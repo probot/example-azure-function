@@ -14,7 +14,7 @@
     "probot": "^11.0.0"
   },
   "devDependencies": {
-    "@azure/functions": "^1.2.2",
+    "@azure/functions": "^1.2.3",
     "nock": "^13.0.7",
     "smee-client": "^1.2.2",
     "uvu": "^0.5.1"
