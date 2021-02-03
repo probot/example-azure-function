@@ -13,8 +13,16 @@ Open http://localhost:3000 and follow instructions to register a GitHub App for 
 
 ## Deployment through GitHub Actions
 
-1. Create `AZURE_CREDENTIALS` repository secret. See https://github.com/azure/login#configure-deployment-credentials for how to retrieve it from the Azure Console.
-2. Create `AZURE_FUNCTION_APP_PUBLISH_PROFILE` repository secret. See https://github.com/Azure/functions-action#using-publish-profile-as-deployment-credential-recommended for how to retrieve it from the Azure Console.
+In the Azure Console, navigate to `Function App` -> your app -> `Configuration` and add the environment variables required by Probot
+
+- `APP_ID`
+- `PRIVATE_KEY` (you can encode your key value at https://www.base64encode.org/)
+- `WEBHOOKS_SECRET`
+
+Then in your repository settings, create two secrets:
+
+1. `AZURE_CREDENTIALS`: see https://github.com/azure/login#configure-deployment-credentials for how to retrieve it from the Azure Console.
+2. `AZURE_FUNCTION_APP_PUBLISH_PROFILE`: see https://github.com/Azure/functions-action#using-publish-profile-as-deployment-credential-recommended for how to retrieve it from the Azure Console.
 
 ## License
 
