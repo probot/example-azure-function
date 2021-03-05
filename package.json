@@ -9,7 +9,7 @@
   },
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "ISC",
-  "repository": "https://github.com/probot/example-azure-function",
+  "repository": "github:probot/example-azure-function",
   "dependencies": {
     "@probot/adapter-azure-functions": "^1.0.2"
   },
