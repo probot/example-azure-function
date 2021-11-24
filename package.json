@@ -14,7 +14,7 @@
     "@probot/adapter-azure-functions": "^1.0.13"
   },
   "devDependencies": {
-    "@azure/functions": "^2.0.0",
+    "@azure/functions": "^3.0.0",
     "nock": "^13.2.1",
     "smee-client": "^1.2.2",
     "uvu": "^0.5.2"
