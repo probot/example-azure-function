@@ -17,7 +17,7 @@ In the Azure Console, navigate to `Function App` -> your app -> `Configuration` 
 
 - `APP_ID`
 - `PRIVATE_KEY` (you can encode your key value at https://www.base64encode.org/)
-- `WEBHOOKS_SECRET`
+- `WEBHOOK_SECRET`
 
 Then in your repository settings, create two secrets:
 
